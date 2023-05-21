@@ -1,0 +1,22 @@
+{
+    "name": "esoftuz/app",
+    "description": "App",
+    "type": "project",
+    "require": {
+        "esoftuz/framework": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers"
+        },
+        "files": ["routes/web.php", "routes/console.php"]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "khamdullaevuz",
+            "email": "elbek.khamdullaev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

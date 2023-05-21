@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "657b2ec99cb6b948feb570e6945af080",
+    "packages": [
+        {
+            "name": "esoftuz/framework",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/esoftuz/framework.git",
+                "reference": "f49c696bd4298b5d5c5987dfd9b18aa9b5dc1bd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/esoftuz/framework/zipball/f49c696bd4298b5d5c5987dfd9b18aa9b5dc1bd3",
+                "reference": "f49c696bd4298b5d5c5987dfd9b18aa9b5dc1bd3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Esoftuz\\Framework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "khamdullaevuz",
+                    "email": "elbek.khamdullaev@gmail.com"
+                }
+            ],
+            "description": "Framework",
+            "support": {
+                "issues": "https://github.com/esoftuz/framework/issues",
+                "source": "https://github.com/esoftuz/framework/tree/1.0.0"
+            },
+            "time": "2023-05-21T17:26:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
